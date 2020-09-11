@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deep_recovery_files_recovered">
+        <item quantity="other">تم استرداد ملفات %d.</item>
+        <item quantity="one">تم استرداد ملف %d.</item>
+    </plurals>
+    <plurals name="files_found">
+        <item quantity="other">تم العثور على ملفات %d</item>
+        <item quantity="one">تم العثور على ملف %d</item>
+    </plurals>
+    <plurals name="files_were_scanned">
+        <item quantity="other">(تم مسح ^ ^ ^ من الملفات)</item>
+        <item quantity="one">(تم مسح ملف %d)</item>
+    </plurals>
+    <plurals name="files_were_selected">
+        <item quantity="other">(تم تحديد ^ ^ ^ ملفات)</item>
+        <item quantity="one">(تم اختيار ملف %d)</item>
+    </plurals>
+    <plurals name="toast_deep_recovery_files_deleted">
+        <item quantity="other">تم حذف ملفات %d.</item>
+        <item quantity="one">تم حذف ملف %d.</item>
+    </plurals>
+</resources>

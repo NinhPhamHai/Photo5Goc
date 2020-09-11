@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deep_recovery_files_recovered">
+        <item quantity="other">%d个文件已恢复。</item>
+    </plurals>
+    <plurals name="files_found">
+        <item quantity="other">找到%d个文件</item>
+    </plurals>
+    <plurals name="files_were_scanned">
+        <item quantity="other">（%d个文件已扫描）</item>
+    </plurals>
+    <plurals name="files_were_selected">
+        <item quantity="other">（已选择%d个文件）</item>
+    </plurals>
+    <plurals name="toast_deep_recovery_files_deleted">
+        <item quantity="other">%d个文件已删除。</item>
+    </plurals>
+</resources>

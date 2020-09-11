@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deep_recovery_files_recovered">
+        <item quantity="other">%d fichiers récupérés.</item>
+        <item quantity="one">%d fichier récupéré.</item>
+    </plurals>
+    <plurals name="files_found">
+        <item quantity="other">%d fichiers ont été trouvés</item>
+        <item quantity="one">%d fichier trouvé</item>
+    </plurals>
+    <plurals name="files_were_scanned">
+        <item quantity="other">(Les fichiers %d ont été analysés)</item>
+        <item quantity="one">(Le fichier %d a été analysé)</item>
+    </plurals>
+    <plurals name="files_were_selected">
+        <item quantity="other">(%d fichiers ont été sélectionnés)</item>
+        <item quantity="one">(Le fichier %d a été sélectionné)</item>
+    </plurals>
+    <plurals name="toast_deep_recovery_files_deleted">
+        <item quantity="other">%d fichiers supprimés.</item>
+        <item quantity="one">%d fichier supprimé.</item>
+    </plurals>
+</resources>

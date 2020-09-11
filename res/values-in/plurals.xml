@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deep_recovery_files_recovered">
+        <item quantity="other">%d file pulih.</item>
+        <item quantity="one">%d file pulih.</item>
+    </plurals>
+    <plurals name="files_found">
+        <item quantity="other">%d file ditemukan</item>
+        <item quantity="one">%d file ditemukan</item>
+    </plurals>
+    <plurals name="files_were_scanned">
+        <item quantity="other">(%d file dipindai)</item>
+        <item quantity="one">(%d file telah dipindai)</item>
+    </plurals>
+    <plurals name="files_were_selected">
+        <item quantity="other">(%d file dipilih)</item>
+        <item quantity="one">(%d file dipilih)</item>
+    </plurals>
+    <plurals name="toast_deep_recovery_files_deleted">
+        <item quantity="other">%d file dihapus.</item>
+        <item quantity="one">%d file dihapus.</item>
+    </plurals>
+</resources>

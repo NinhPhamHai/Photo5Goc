@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#fffff8f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:srcCompat="@drawable/img_vector_begin_to_use_bg" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="160.0dip" app:srcCompat="@drawable/ic_logo" />
+        <ImageView android:layout_width="143.0dip" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_vector_photo_recovery" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff4a4a4a" android:id="@id/welcome_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:enabled="false" android:textSize="18.0sp" android:textStyle="bold" android:id="@id/begin_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_let_us_begin" android:layout_marginStart="35.0dip" android:layout_marginEnd="35.0dip" style="@style/PrimaryButton" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/privacy_container" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="22.0dip">
+            <com.photorecovery.ui.view.CheckBox android:id="@id/checkbox" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/colorPrimary" android:id="@id/privacy_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

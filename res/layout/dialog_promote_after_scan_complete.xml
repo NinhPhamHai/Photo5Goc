@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <View android:id="@id/head_background" android:background="@drawable/shape_corner_up" android:layout_width="fill_parent" android:layout_height="140.0dip" app:layout_constraintBottom_toBottomOf="@id/premium_image_view" />
+        <ImageView android:id="@id/premium_image_view" android:layout_width="0.0dip" android:layout_height="180.0dip" android:src="@drawable/img_promote_premium" app:layout_constraintDimensionRatio="596:290" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/shape_corner_down" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/premium_image_view">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/text_main" android:id="@id/scanned_count_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/upgrade_to_view_all_items" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <Button android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/btn_cancel" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+                <View android:background="@color/vertical_line" android:layout_width="2.0dip" android:layout_height="24.0dip" />
+                <Button android:id="@id/subscribe_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/btn_try_for_free" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

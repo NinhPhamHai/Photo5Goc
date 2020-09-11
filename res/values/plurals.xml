@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deep_recovery_files_recovered">
+        <item quantity="other">%d files recovered.</item>
+        <item quantity="one">%d file recovered.</item>
+    </plurals>
+    <plurals name="files_found">
+        <item quantity="other">%d files were found</item>
+        <item quantity="one">%d file was found</item>
+    </plurals>
+    <plurals name="files_were_scanned">
+        <item quantity="other">(%d files were scanned)</item>
+        <item quantity="one">(%d file was scanned)</item>
+    </plurals>
+    <plurals name="files_were_selected">
+        <item quantity="other">(%d files were selected)</item>
+        <item quantity="one">(%d file was selected)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="toast_deep_recovery_files_deleted">
+        <item quantity="other">%d files deleted.</item>
+        <item quantity="one">%d file deleted.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deep_recovery_files_recovered">
+        <item quantity="other">กู้คืนไฟล์ %d แล้ว</item>
+        <item quantity="one">กู้คืนไฟล์ %d แล้ว</item>
+    </plurals>
+    <plurals name="files_found">
+        <item quantity="other">พบไฟล์ %d</item>
+        <item quantity="one">พบไฟล์ %d</item>
+    </plurals>
+    <plurals name="files_were_scanned">
+        <item quantity="other">(สแกนไฟล์ %d)</item>
+        <item quantity="one">(สแกนไฟล์ %d)</item>
+    </plurals>
+    <plurals name="files_were_selected">
+        <item quantity="other">(เลือกไฟล์ %d)</item>
+        <item quantity="one">(เลือกไฟล์ %d)</item>
+    </plurals>
+    <plurals name="toast_deep_recovery_files_deleted">
+        <item quantity="other">ลบไฟล์ %d แล้ว</item>
+        <item quantity="one">ลบไฟล์ %d</item>
+    </plurals>
+</resources>

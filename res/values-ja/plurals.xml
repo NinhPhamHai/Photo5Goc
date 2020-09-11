@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="deep_recovery_files_recovered">
+        <item quantity="other">%d個のファイルが復元されました。</item>
+        <item quantity="one">%dファイルが復元されました。</item>
+    </plurals>
+    <plurals name="files_found">
+        <item quantity="other">%dファイルが見つかりました</item>
+        <item quantity="one">%dファイルが見つかりました</item>
+    </plurals>
+    <plurals name="files_were_scanned">
+        <item quantity="other">（%dファイルがスキャンされました）</item>
+        <item quantity="one">（%dファイルがスキャンされました）</item>
+    </plurals>
+    <plurals name="files_were_selected">
+        <item quantity="other">（%d個のファイルが選択されました）</item>
+        <item quantity="one">（%dファイルが選択されました）</item>
+    </plurals>
+    <plurals name="toast_deep_recovery_files_deleted">
+        <item quantity="other">%d個のファイルが削除されました。</item>
+        <item quantity="one">%dファイルが削除されました。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>subscription_products</key>
+        <value>[
+            {
+            "product_id": "photorecovery.subscription_1y_02",
+            "support_free_trail": "false"
+            },
+            {
+            "product_id": "photorecovery.subscription_1y_01",
+            "support_free_trail": "true"
+            }
+            ] </value>
+    </entry>
+    <entry>
+        <key>frc_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>basic_operation_without_pro</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>campaign_name</key>
+        <value>None</value>
+    </entry>
+</defaultsMap>
